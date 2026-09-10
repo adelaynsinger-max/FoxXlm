@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>FoxXlm | Built on Stellar</title>
-
-  <meta name="description"
-        content="FoxXlm is a community-driven token project built on the Stellar network.">
+  <meta name="description" content="FoxXlm is a community-driven token project built on the Stellar network.">
 
   <style>
     * {
@@ -26,8 +23,6 @@
       color: white;
       line-height: 1.6;
     }
-
-    /* NAVBAR */
 
     nav {
       position: sticky;
@@ -63,8 +58,6 @@
     nav a:hover {
       color: #ff7900;
     }
-
-    /* HERO */
 
     .hero {
       min-height: 90vh;
@@ -133,6 +126,9 @@
       text-decoration: none;
       font-weight: 800;
       transition: 0.2s;
+      cursor: pointer;
+      border: none;
+      font-size: 15px;
     }
 
     .button:hover {
@@ -144,8 +140,6 @@
       color: white;
       border: 1px solid #444;
     }
-
-    /* SECTIONS */
 
     section {
       max-width: 1000px;
@@ -166,8 +160,6 @@
     .section-title p {
       color: #888;
     }
-
-    /* TOKEN CARD */
 
     .token-card {
       background: linear-gradient(145deg, #131313, #0b0b0b);
@@ -204,8 +196,6 @@
       font-size: 13px;
     }
 
-    /* GRID */
-
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -232,8 +222,6 @@
       color: #888;
     }
 
-    /* TOKENOMICS */
-
     .tokenomics {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -257,8 +245,6 @@
     .stat span {
       color: #888;
     }
-
-    /* ROADMAP */
 
     .roadmap {
       border-left: 2px solid #ff7900;
@@ -290,8 +276,6 @@
       color: #888;
     }
 
-    /* WARNING */
-
     .warning {
       background: #111;
       border: 1px solid #302820;
@@ -304,8 +288,6 @@
       color: #ff7900;
     }
 
-    /* FOOTER */
-
     footer {
       text-align: center;
       padding: 45px 20px;
@@ -317,10 +299,7 @@
       color: #ff7900;
     }
 
-    /* MOBILE */
-
     @media (max-width: 700px) {
-
       nav {
         padding: 15px 5%;
       }
@@ -356,10 +335,8 @@
 <body>
 
   <!-- NAVIGATION -->
-
   <nav>
     <a href="#" class="logo">🦊 Fox<span>Xlm</span></a>
-
     <div>
       <a href="#token">Token</a>
       <a href="#tokenomics">Tokenomics</a>
@@ -368,348 +345,70 @@
     </div>
   </nav>
 
-
   <!-- HERO -->
-
   <div class="hero">
-
     <div class="hero-content">
-
-      <div class="tag">
-        BUILT ON STELLAR • FOX EMPIRE
-      </div>
-
+      <div class="tag">BUILT ON STELLAR • FOX EMPIRE</div>
       <h1>FoxXlm</h1>
-
       <p>
         A community-driven token project built on the Stellar network.
         Fast. Simple. Community focused.
       </p>
 
       <div class="buttons">
+        <a href="#token" class="button">Explore FoxXlm</a>
 
-        <a href="#token" class="button">
-          Explore FoxXlm
-        </a>
+        <button onclick="addFoxToWallet()" class="button secondary">
+          🦊 Add FoxXlm to Wallet
+        </button>
 
-        <a
-          href="https://stellar.expert/"
-          target="_blank"
-          class="button secondary">
+        <a href="https://stellar.expert/explorer/public/asset/FoxXlm-GC4JKLX2BSIVAKATWHFXY6JV67IDX6SFNLMCLHOI3UIYVVTZNDOV5HUN" 
+           target="_blank" 
+           class="button secondary">
           Stellar Explorer
         </a>
-
       </div>
-
     </div>
-
   </div>
 
-
   <!-- TOKEN -->
-
   <section id="token">
-
     <div class="section-title">
-
       <h2>FoxXlm Token</h2>
-
-      <p>
-        Official project information
-      </p>
-
+      <p>Official project information</p>
     </div>
 
     <div class="token-card">
-
-      <div class="token-name">
-        FoxXlm
-      </div>
-
-      <div class="token-symbol">
-        FOX
-      </div>
+      <div class="token-name">FoxXlm</div>
+      <div class="token-symbol">FoxXlm</div>
 
       <p style="color:#888;margin-top:20px;">
         FoxXlm is a community token project operating on the Stellar network.
       </p>
 
       <div class="issuer">
-
-        <strong style="color:#ff7900;">
-          Issuer
-        </strong>
-
-        <br><br>
-
+        <strong style="color:#ff7900;">Issuer</strong><br><br>
         GC4JKLX2BSIVAKATWHFXY6JV67IDX6SFNLMCLHOI3UIYVVTZNDOV5HUN
-
       </div>
-
     </div>
-
   </section>
 
-
   <!-- FEATURES -->
-
   <section>
-
     <div class="section-title">
-
       <h2>Why FoxXlm?</h2>
-
-      <p>
-        The idea behind the project
-      </p>
-
+      <p>The idea behind the project</p>
     </div>
 
     <div class="grid">
-
       <div class="card">
-
-        <div class="card-icon">
-          ⚡
-        </div>
-
+        <div class="card-icon">⚡</div>
         <h3>Stellar Network</h3>
-
-        <p>
-          Built on Stellar infrastructure for fast and efficient transactions.
-        </p>
-
+        <p>Built on Stellar infrastructure for fast and efficient transactions.</p>
       </div>
 
-
       <div class="card">
-
-        <div class="card-icon">
-          🦊
-        </div>
-
+        <div class="card-icon">🦊</div>
         <h3>Fox Empire</h3>
-
-        <p>
-          Connected to the Fox Empire community and its growing ecosystem.
-        </p>
-
+        <p>Connected to the Fox Empire community and its growing ecosystem.</p>
       </div>
-
-
-      <div class="card">
-
-        <div class="card-icon">
-          🌐
-        </div>
-
-        <h3>Open Project</h3>
-
-        <p>
-          Project information is designed to be publicly accessible.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- TOKENOMICS -->
-
-  <section id="tokenomics">
-
-    <div class="section-title">
-
-      <h2>Tokenomics</h2>
-
-      <p>
-        FoxXlm token structure
-      </p>
-
-    </div>
-
-    <div class="tokenomics">
-
-      <div class="stat">
-
-        <strong>FOX</strong>
-
-        <span>
-          Token Symbol
-        </span>
-
-      </div>
-
-
-      <div class="stat">
-
-        <strong>Stellar</strong>
-
-        <span>
-          Blockchain
-        </span>
-
-      </div>
-
-
-      <div class="stat">
-
-        <strong>1,000,000</strong>
-
-        <span>
-          Initial project allocation
-        </span>
-
-      </div>
-
-
-      <div class="stat">
-
-        <strong>Community</strong>
-
-        <span>
-          Project direction
-        </span>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- ROADMAP -->
-
-  <section id="roadmap">
-
-    <div class="section-title">
-
-      <h2>Roadmap</h2>
-
-      <p>
-        The FoxXlm journey
-      </p>
-
-    </div>
-
-    <div class="roadmap">
-
-      <div class="roadmap-item">
-
-        <h3>Phase 01 — Foundation</h3>
-
-        <p>
-          Create the FoxXlm asset, establish the Stellar wallets
-          and prepare the project identity.
-        </p>
-
-      </div>
-
-
-      <div class="roadmap-item">
-
-        <h3>Phase 02 — Website</h3>
-
-        <p>
-          Launch the official FoxXlm website and publish project information.
-        </p>
-
-      </div>
-
-
-      <div class="roadmap-item">
-
-        <h3>Phase 03 — Community</h3>
-
-        <p>
-          Grow the Fox Empire community and introduce FoxXlm to new users.
-        </p>
-
-      </div>
-
-
-      <div class="roadmap-item">
-
-        <h3>Phase 04 — Ecosystem</h3>
-
-        <p>
-          Explore wallets, integrations, liquidity and additional
-          community utilities.
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- COMMUNITY -->
-
-  <section id="community">
-
-    <div class="section-title">
-
-      <h2>Join Fox Empire</h2>
-
-      <p>
-        Follow the project and become part of the community.
-      </p>
-
-    </div>
-
-    <div class="buttons">
-
-      <a href="#" class="button">
-        Telegram
-      </a>
-
-      <a href="#" class="button secondary">
-        GitHub
-      </a>
-
-    </div>
-
-  </section>
-
-
-  <!-- DISCLAIMER -->
-
-  <section>
-
-    <div class="warning">
-
-      <strong>Important:</strong>
-
-      FoxXlm is a community project.
-      This website does not promise profits, investment returns,
-      or guaranteed token value.
-
-      Always verify the correct Stellar asset issuer before
-      sending or receiving tokens.
-
-    </div>
-
-  </section>
-
-
-  <!-- FOOTER -->
-
-  <footer>
-
-    🦊 <span>FoxXlm</span>
-
-    <br>
-
-    Built on Stellar • Fox Empire
-
-    <br><br>
-
-    © 2026 FoxXlm
-
-  </footer>
-
-</body>
-</html>
